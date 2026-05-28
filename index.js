@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Node Docker CI/CD Working check");
+  res.send("Node Docker CI/CD Working");
 });
 
 app.listen(3000, () => {
